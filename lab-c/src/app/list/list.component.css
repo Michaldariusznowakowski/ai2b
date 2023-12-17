@@ -1,0 +1,27 @@
+button.delete {
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ff4d4d;
+    min-width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.delete:hover {
+    background-color: #ff3333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
