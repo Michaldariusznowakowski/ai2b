@@ -1,0 +1,10 @@
+#frame {
+    border: 1px solid rgb(214, 43, 43);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.even {
+    background-color: rgb(35, 199, 98);
+}
