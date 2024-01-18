@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    background: url("https://placehold.co/100x100/FFFFFF/EFEFEF/png?text=49353");
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.router-outlet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+* {
+    box-sizing: border-box;
+}
